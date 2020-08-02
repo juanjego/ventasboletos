@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+// JESUS HERNANDEZ REYES
+import { Component, OnInit, Input } from '@angular/core';
+import { FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+
+  constructor() {
+   }
+
+  
+
 
   ngOnInit(): void {
   }
 
 }
+

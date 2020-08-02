@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ventasboletos"
+    }
+  },
+  "defaultProject": "ventasboletos",
+  "cli": {
+    "analytics": false
+  }
 }
