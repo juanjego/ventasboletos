@@ -7,9 +7,10 @@ import { NavComponent } from './components/nav/nav.component';
 import { HomeComponent } from './components/home/home.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { UsuariosComponent } from './components/usuarios/usuarios.component';
+import { LoginComponent } from './components/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-  
-import { RegUserComponent } from './components/reg-user/reg-user.component';
+import {LoginGuard} from './login.guard';
+import { NoLoginGuard } from './no-login.guard';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { RegUserComponent } from './components/reg-user/reg-user.component';
     HomeComponent,
     FooterComponent,
     UsuariosComponent,
-    RegUserComponent
+    LoginComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +27,7 @@ import { RegUserComponent } from './components/reg-user/reg-user.component';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [LoginGuard, NoLoginGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
