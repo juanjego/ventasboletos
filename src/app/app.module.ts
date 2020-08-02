@@ -13,6 +13,7 @@ import { Concierto3Component } from './components/concierto3/concierto3.componen
 import { Concierto4Component } from './components/concierto4/concierto4.component';
 import { Concierto5Component } from './components/concierto5/concierto5.component';
 import { Concierto6Component } from './components/concierto6/concierto6.component';
+import { CompraboletosComponent } from './components/compraboletos/compraboletos.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { Concierto6Component } from './components/concierto6/concierto6.componen
     Concierto3Component,
     Concierto4Component,
     Concierto5Component,
-    Concierto6Component
+    Concierto6Component,
+    CompraboletosComponent
   ],
   imports: [
     BrowserModule,
