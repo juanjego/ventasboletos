@@ -123,6 +123,6 @@
   },
   "defaultProject": "ventasboletos",
   "cli": {
-    "analytics": false
+    "analytics": "a6907a58-0d02-49b0-907f-d5dd88b0afe8"
   }
 }
